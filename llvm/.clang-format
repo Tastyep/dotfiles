@@ -1,0 +1,115 @@
+---
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Left
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: true
+  PadOperators: true
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: true
+  PadOperators: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: true
+  PadOperators: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: true
+  PadOperators: true
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AlignTrailingComments:
+  Kind: Leave
+  OverEmptyLines: 1
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+BinPackParameters: false
+BinPackArguments: false
+AlwaysBreakTemplateDeclarations: Yes
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakAfterReturnType: None
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+BitFieldColonSpacing: Both
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: true
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeBraces: Custom
+Cpp11BracedListStyle: true
+BreakBeforeConceptDeclarations: Always
+BreakInheritanceList: AfterComma
+BreakConstructorInitializers: BeforeComma
+BreakBeforeTernaryOperators: true
+BreakStringLiterals: true
+ColumnLimit: 80
+CompactNamespaces: true
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Always
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentAccessModifiers: false
+InsertBraces: true
+IndentWrappedFunctionNames: false
+PPIndentWidth: 2
+PackConstructorInitializers: CurrentLine
+SpaceBeforeParens: ControlStatements
+SpaceBeforeInheritanceColon: true
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCaseColon: false
+UseTab: Never
+Standard: c++20
+ReferenceAlignment: Left
+PointerAlignment: Left
+QualifierAlignment: Left
+ReflowComments: true
+RequiresClausePosition: OwnLine
+RequiresExpressionIndentation: OuterScope
+SeparateDefinitionBlocks: Always
+SortIncludes: CaseSensitive
+SpaceAfterCStyleCast: false
+SortUsingDeclarations: LexicographicNumeric
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+IndentCaseLabels: true
+IndentCaseBlocks: false
+IndentRequiresClause: false
+InsertNewlineAtEOF: false
+SpacesInParentheses: false
+BreakBeforeBinaryOperators: NonAssignment
