@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.node_modules_global/bin:$PATH"
 
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
@@ -72,7 +72,7 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-source $HOME/.config/zsh/editor
+source $HOME/.config/zsh/editor.zsh
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -117,16 +117,16 @@ export LS_COLORS="$(vivid generate molokai)"
 
 source $HOME/.config/yazi-config/yazi.sh
 
-source $HOME/.config/zsh/antigen
+source $HOME/.config/zsh/antigen.zsh
 # TODO: The above line sets --color=tty, which is invalid with eza
 alias ls="ls --color=auto"
 
-source $HOME/.config/zsh/bin
-source $HOME/.config/zsh/nvm
-source $HOME/.config/zsh/python
-source $HOME/.config/zsh/perl
+source $HOME/.config/zsh/bin.zsh
+source $HOME/.config/zsh/nvm.zsh
+source $HOME/.config/zsh/python.zsh
+source $HOME/.config/zsh/perl.zsh
 
-source $HOME/.config/zsh/todoist
-source $HOME/.config/zsh/atuin
-source $HOME/.config/zsh/zinit
-source $HOME/.config/zsh/docker
+source $HOME/.config/zsh/todoist.zsh
+source $HOME/.config/zsh/atuin.zsh
+source $HOME/.config/zsh/zinit.zsh
+source $HOME/.config/zsh/docker.zsh
