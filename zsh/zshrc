@@ -125,6 +125,7 @@ source $HOME/.config/zsh/perl.zsh
 source $HOME/.config/zsh/todoist.zsh
 source $HOME/.config/zsh/atuin.zsh
 source $HOME/.config/zsh/docker.zsh
+source $HOME/.config/zsh/glow.zsh
 
 source $HOME/.config/yazi-config/yazi.sh
 
