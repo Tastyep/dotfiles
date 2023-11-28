@@ -114,7 +114,8 @@ alias ydla="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 
 export LS_COLORS="$(vivid generate molokai)"
 
-source $HOME/.config/yazi-config/yazi.sh
+source $HOME/.config/zsh/zinit.zsh
+source $HOME/.config/zsh/plugin.zsh
 
 source $HOME/.config/zsh/bin.zsh
 source $HOME/.config/zsh/nvm.zsh
@@ -123,13 +124,9 @@ source $HOME/.config/zsh/perl.zsh
 
 source $HOME/.config/zsh/todoist.zsh
 source $HOME/.config/zsh/atuin.zsh
-source $HOME/.config/zsh/zinit.zsh
 source $HOME/.config/zsh/docker.zsh
 
-# zinit plugins
-zinit ice depth=1; zinit light romkatv/powerlevel10k
-zinit ice depth=1; zinit light zsh-users/zsh-autosuggestions
-zinit ice depth=1; zinit light marlonrichert/zsh-autocomplete
+source $HOME/.config/yazi-config/yazi.sh
+
 # Should be at the end
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
