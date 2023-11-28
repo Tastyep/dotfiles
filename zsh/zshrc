@@ -128,7 +128,8 @@ source $HOME/.config/zsh/docker.zsh
 
 # zinit plugins
 zinit ice depth=1; zinit light romkatv/powerlevel10k
-
+zinit ice depth=1; zinit light zsh-users/zsh-autosuggestions
+zinit ice depth=1; zinit light marlonrichert/zsh-autocomplete
 # Should be at the end
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
