@@ -112,7 +112,7 @@ export WORKON_HOME=~/.virtualenvs
 alias ydlv="youtube-dl -f bestvideo+bestaudio/best"
 alias ydla="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 
-export LS_COLORS="$(vivid generate molokai)"
+export LS_COLORS="$(vivid generate catppuccin-macchiato)"
 
 source $HOME/.config/zsh/zinit.zsh
 source $HOME/.config/zsh/plugin.zsh
