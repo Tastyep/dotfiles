@@ -127,7 +127,7 @@ source $HOME/.config/zsh/atuin.zsh
 source $HOME/.config/zsh/docker.zsh
 source $HOME/.config/zsh/glow.zsh
 
-source $HOME/.config/yazi-config/yazi.sh
+source $HOME/.config/yazi/yazi.sh
 
 # Should be at the end
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
