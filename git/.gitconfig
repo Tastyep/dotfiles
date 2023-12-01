@@ -3,18 +3,23 @@
 	name = Luc Sinet
 
 [core]
-	pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended Bright'
+  pager = delta
 	editor = nvim
+
+[include]
+    path = "/home/luc/.config/delta/themes.gitconfig"
 
 [interactive]
 	diffFilter = delta --color-only
 
 [delta]
-    features = side-by-side line-numbers decorations
-    whitespace-error-style = 22 reverse
-    side-by-side = true
+  features = line-numbers decorations gruvmax-fang
+  whitespace-error-style = 22 reverse
+  side-by-side = true
+  hyperlinks = true
+  hyperlinks-file-link-format = "vscode://file/{path}:{line}"
 
 [delta "decorations"]
-    commit-decoration-style = bold yellow box ul
-    file-style = bold yellow ul
-    file-decoration-style = none
+  commit-decoration-style = bold yellow box ul
+  file-style = bold yellow ul
+  file-decoration-style = none
