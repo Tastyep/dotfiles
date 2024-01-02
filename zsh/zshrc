@@ -128,5 +128,8 @@ source $HOME/.config/zsh/glow.zsh
 
 source $HOME/.config/yazi/yazi.sh
 
+# Load custom completions
+fpath=($HOME/.config/zsh/completion $fpath)
+
 # Should be at the end
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
