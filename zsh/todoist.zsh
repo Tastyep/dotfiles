@@ -4,4 +4,4 @@ PROG=todoist source "$GOPATH/src/github.com/urfave/cli/autocomplete/zsh_autocomp
 # Use fzf
 source "$GOPATH/src/github.com/sachaos/todoist/todoist_functions_fzf.sh"
 
-alias td="todoist"
+alias td="todoist --color --header"
